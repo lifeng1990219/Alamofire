@@ -57,6 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             let secondaryAsNavController = secondaryViewController as? UINavigationController,
             let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController
         {
+            // test
             return topAsDetailController.request == nil
         }
 
