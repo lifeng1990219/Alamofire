@@ -51,7 +51,7 @@ class Api {
   static const String affairSignIn = 'fuxi/work/sign/in/submit';
 
   /// 签到记录
-  static const String affairSignInRecored = 'fuxi/work/sign/in/list';
+  static const String affairSignInRecored = 'fuxi/affair/visit/add';
 
   /// 签到信息
   static const String affairSignInInfo = 'fuxi/work/sign/in/get/today/record';
