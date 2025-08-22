@@ -641,7 +641,7 @@ class Api {
   static const String flashBuyNationData = '/fuxi/data/sales/home/nation';
 
   /// 替换-抢购数据区域
-  static const String flashBuyRegionData = '/fuxi/data/sales/home/region';
+  static const String flashBuyRegionData = '/fuxi/data/chart/distributor/outbound/month';
 
   ///****************************************************
   ///********************   数据分析-门店数据二级页面   ***********************
