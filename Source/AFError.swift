@@ -148,6 +148,7 @@ extension AFError {
     /// Returns whether the AFError is an invalid URL error.
     public var isInvalidURLError: Bool {
         if case .invalidURL = self { return true }
+        if case .invalidURL = self { return false}
         return false
     }
 
