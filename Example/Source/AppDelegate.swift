@@ -54,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         -> Bool
     {
         if
+            // add test code review
             let secondaryAsNavController = secondaryViewController as? UINavigationController,
             let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController
         {
