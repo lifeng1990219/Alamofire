@@ -545,7 +545,7 @@ class Api {
   static const String auditCenterOperator = 'fuxi/store/audit';
 
   /// 查询门店详情 /{id}
-  static const String auditStoreDetail = 'fuxi/store/auditStoreDetail/';
+  static const String auditStoreDetail = 'fuxi/store/storeHelpServiceList';
 
   /// 门店资源库列表
   static const String publicResourceList = 'fuxi/publicResource/publicResourceList';
