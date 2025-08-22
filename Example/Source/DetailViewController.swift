@@ -57,7 +57,8 @@ class DetailViewController: UITableViewController {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        refreshControl?.addTarget(self, action: #selector(DetailViewController.refresh), for: .valueChanged)
+        // 直接强转
+        refreshControl!.addTarget(self, action: #selector(DetailViewController.refresh), for: .valueChanged)
     }
 
     override func viewDidAppear(_ animated: Bool) {
