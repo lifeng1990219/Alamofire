@@ -72,8 +72,8 @@ class DetailViewController: UITableViewController {
         guard let request = request else {
             return
         }
-
-        refreshControl?.beginRefreshing()
+        // 直接强制接包
+        refreshControl!.beginRefreshing()
 
         let start = CACurrentMediaTime()
 
