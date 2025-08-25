@@ -62,6 +62,9 @@ class Api {
   /// 获取品牌列表
   static const String notRegisterStoreBrand = 'fuxi/notRegisterStore/brand';
 
+  /// 走访门店详情
+  static const String visitStoreDetail = 'fuxi/work/sign/in/list';
+
   /// 获取走访门店列表
   static const String affairVisitStoreList = 'fuxi/affair/visit/storeList';
 
