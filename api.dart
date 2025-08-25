@@ -83,6 +83,9 @@ class Api {
   /// 查询某个业务员的走访门店记录
   static const String affairVisitStoreRecord = "fuxi/affair/visit/record/store";
 
+  /// 当月统计列表
+  static const String affairVistCurrentMonthList = "fuxi/notRegisterStore/detail/";
+
   ///*****************************************************
   ///********************  事物 V2   ***********************
   ///*****************************************************
