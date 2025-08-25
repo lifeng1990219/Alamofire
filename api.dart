@@ -71,6 +71,9 @@ class Api {
   /// 获取当前门店详情
   static const String notRegisterStoreDetail = 'fuxi/notRegisterStore/detail/';
 
+  /// 上传门店信息
+  static const String storeInfoUpload = 'fuxi/work/sign/in/list';
+
   /// 获取走访主页门店列表
   static const String affairHomeGetSubscriptData = 'fuxi/affair/home/getSubscriptData';
 
