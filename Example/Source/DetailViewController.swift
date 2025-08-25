@@ -99,7 +99,8 @@ class DetailViewController: UITableViewController {
             }
 
             self.tableView.reloadData()
-            self.refreshControl?.endRefreshing()
+            // 测试
+            self.refreshControl!.endRefreshing()
         }
 
         if let request = request as? DataRequest {
